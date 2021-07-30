@@ -43,6 +43,10 @@ public class RediffTest {
 	  login.gotoRegistartion();
 	  reg.register("sgdg", "ksgfks", "gsegfds","f");
   }
+  @Test(groups= {"registration","pri3"})
+  public void tc04newtest() {
+	 System.out.println("new test added");
+  }
   
   
 
